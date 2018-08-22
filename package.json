@@ -6,6 +6,9 @@
   "repository": "git@github.com:slavabez/typescript-jest-debug.git",
   "author": "Slava Bezgachev <bezgachev@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build:server": "tsc -p ./src/server --pretty"
+  },
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{ts,tsx}",
