@@ -9,6 +9,7 @@
   "scripts": {
     "build:server": "tsc -p ./src/server --pretty",
     "build:client": "parcel build ./src/client/static/index.html --out-dir './dist/client' --public-url '/'",
+    "dev:client": "parcel ./src/client/static/index.html",
     "test": "jest"
   },
   "jest": {
