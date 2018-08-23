@@ -63,4 +63,8 @@ typings/
 # IDE files
 .idea
 
+# Built files
 dist
+
+# Parcel cache
+.cache
