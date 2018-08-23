@@ -40,6 +40,10 @@
     "@types/connect" "*"
     "@types/node" "*"
 
+"@types/cheerio@*":
+  version "0.22.8"
+  resolved "https://registry.yarnpkg.com/@types/cheerio/-/cheerio-0.22.8.tgz#5702f74f78b73e13f1eb1bd435c2c9de61a250d4"
+
 "@types/connect@*":
   version "3.4.32"
   resolved "https://registry.yarnpkg.com/@types/connect/-/connect-3.4.32.tgz#aa0e9616b9435ccad02bc52b5b454ffc2c70ba28"
@@ -49,6 +53,13 @@
 "@types/cookiejar@*":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@types/cookiejar/-/cookiejar-2.1.0.tgz#4b7daf2c51696cfc70b942c11690528229d1a1ce"
+
+"@types/enzyme@^3.1.13":
+  version "3.1.13"
+  resolved "https://registry.yarnpkg.com/@types/enzyme/-/enzyme-3.1.13.tgz#4bbc5c81fa40c9fc7efee25c4a23cb37119a33ea"
+  dependencies:
+    "@types/cheerio" "*"
+    "@types/react" "*"
 
 "@types/events@*":
   version "1.2.0"
